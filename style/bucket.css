@@ -1,0 +1,50 @@
+#bucket{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+img{
+    width: 60%;
+    height: 250px;
+}
+
+.div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#confirm_checkout{
+    padding: 10px;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+}
+
+a{
+    margin-left: 40%;
+}
+
+#total_amount{
+    float: right;
+    padding: 10px;
+    margin-top: -5%;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#remove_coffee{
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+}

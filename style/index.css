@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    /* border: 2px solid blue; */
+    margin-top: 7%;
+}
+img{
+    width: 98%;
+    height: 280px;
+}
+
+#navbar{
+    float: right;
+    padding: 15px;
+    border-bottom: 2px solid black;
+    margin-top: -7%;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar>a{
+    text-decoration: none;
+}
+
+.div{
+    /* border: 2px solid brown; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#add_to_bucket{
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+}
